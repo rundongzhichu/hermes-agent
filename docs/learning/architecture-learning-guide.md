@@ -27,6 +27,10 @@ ACP： Agent Communication Protocol (ACP)：在AI领域，ACP主要指由AgentUn
 解决了不同来源AI Agent的互联互通问题。它被认为是智能体迈向 “社会化阶段” 的关键基础设施，旨在实现AI Agent功能复用，帮助企业以更低成本开发生产级AI应用。
 其地位类似于现代互联网的 TCP/IP协议。例如，一个翻译Agent可以自动调用语音合成Agent，再对接日程管理Agent，为你完成“多语言会议摘要播报”的复杂任务。
 
+
+Agent Client Protocol (ACP)：这是由Zed Industries提出的一种标准化协议，主要用于AI Agent（如Claude Code）与集成开发环境（IDE，如VS Code）之间的通信。
+它以统一格式定义消息发送、会话管理和工具调用，可被视为“AI Agent的HTTP”，当前项目的是这个
+
 ## 核心设计思想
 
 ### 1. **分层架构 (Layered Architecture)**
